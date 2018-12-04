@@ -1,0 +1,92 @@
+
+body{
+  background-color: lightgray;
+  position: absolute;
+}
+
+.Main-Container {
+  display: flex;
+  border: solid black;
+  border-width: thin;
+  background-color: #eaedf2;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  position: relative;
+  margin-left: 75px;
+}
+
+#video-player {
+  display: flex;
+  margin: 75px;
+}
+
+#Revenue {
+  display: flex;
+  margin: 75px;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  position: relative;
+}
+
+#Tasks-completed {
+  display: flex;
+  margin: 75px;
+}
+
+#Mailbox {
+  display: flex;
+  margin: 75px;
+}
+
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  position: relative;
+  margin-right: 75px;
+}
+
+#Login {
+  display: flex;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#arya-stark {
+  display: flex;
+  margin-top: 75px;
+  margin-left: 75px;
+  margin-right: 75 px;
+}
+
+#Add-event {
+  display: flex;
+  margin-top: 75px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#Time-is-Money {
+  display: flex;
+  margin-top: 75px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
